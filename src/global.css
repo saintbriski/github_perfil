@@ -11,6 +11,18 @@
     margin: 0 auto;
 }
 
+@media (min-width: 768px) and (max-width: 1023px) {
+    .container {
+        max-width: 80%;
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        max-width: 70%;
+    }
+}
+
 .container-pesquisa {
     display: flex;
     justify-content: center;
