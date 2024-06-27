@@ -11,7 +11,7 @@ function App() {
 
   const controlaBuscarClique = () => {
     if (nomeUsuario.length <4 ) {
-      setErro('O nome de usuário deve ter pelo menos 4 caracteres.')
+      setErro('O nome de usuário deve conter pelo menos 4 caracteres.')
       setMostrarTextoInicial(false);
     } else {
       setErro(null);
