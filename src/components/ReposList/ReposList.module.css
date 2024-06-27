@@ -7,7 +7,8 @@
 .listItem {
     list-style: none;
     padding: 16px;
-    border: 1px solid rgba(0, 0, 0, 0.1);
+    border: 2px solid rgba(102, 255, 102, 01);
+    border-radius: 5px;
 }
 
 .itemName b, .itemLanguage b {

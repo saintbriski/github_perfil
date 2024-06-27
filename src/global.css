@@ -139,3 +139,26 @@ button:hover::before {
     justify-content: center;
 }
 
+.texto-inicial    {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 35px 35px 20px;
+    background-color: #66ff66;
+    font-weight: 700;
+    font-size: 17px;
+    
+}
+
+.erro-message {
+    font-weight: bold;
+    margin-top: 10px;
+    color: red;
+}
+
+.erro-msg {
+    display: flex;
+    justify-content: center;
+    padding: 10px 10px 10px 10px;
+}
+
