@@ -16,13 +16,13 @@ const ReposList = ({ nomeUsuario }) => {
                     throw new Error('Usuário não encontrado');
                 }
                 return res.json();
-            })
+            }) 
             .then(resJson => {
                 setTimeout(() => {
                     setEstaCarregando(false);
                     setRepos(resJson);
                 }, 2000);
-            })
+            }) 
             .catch(error => {
                 setEstaCarregando(false);
                 setErro(error.message);
